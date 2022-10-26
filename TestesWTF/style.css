@@ -1,0 +1,42 @@
+th {
+
+    color: blueviolet;
+     border-color: black;
+    border-width: 2px;
+    border-style:solid ;
+    border-radius: 50;
+    padding: 10px;
+}
+
+img {
+
+    border-color: black;
+    border-width: 2px;
+    border-style: dotted ;
+    border-radius: 50%;
+       padding: 10px;
+
+     border-color: black;
+    border-width: 2px;
+    border-style: dashed ;
+    border-radius: 50px; 
+}
+
+ul {
+
+ border-color: black;
+    border-width: 2px;
+    border-style:solid ;
+    border-radius: 50;
+       padding: 25px;
+
+}
+td {
+
+    color: blueviolet;
+     border-color: black;
+    border-width: 2px;
+    border-style:solid ;
+    border-radius: 50;
+    padding: 10px;
+}

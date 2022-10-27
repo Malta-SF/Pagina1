@@ -1,42 +1,40 @@
 th {
-
-    color: blueviolet;
-     border-color: black;
+    color: rgb(255, 255, 255);
+    border-color: black;
     border-width: 2px;
-    border-style:solid ;
+    border-style: solid;
     border-radius: 50;
-    padding: 10px;
+    padding: 100px;
+    background-image: url(https://i.kym-cdn.com/photos/images/original/000/950/722/b2a.gif
+);
 }
 
 img {
-
     border-color: black;
     border-width: 2px;
-    border-style: dotted ;
+    border-style: dotted;
     border-radius: 50%;
-       padding: 10px;
-
-     border-color: black;
+    padding: 10px;
+    border-color: black;
     border-width: 2px;
-    border-style: dashed ;
-    border-radius: 50px; 
+    border-style: dashed;
+    border-radius: 50px;
 }
 
 ul {
-
- border-color: black;
+    border-color: black;
     border-width: 2px;
-    border-style:solid ;
+    border-style: solid;
     border-radius: 50;
-       padding: 25px;
-
+    padding: 25px;
 }
-td {
 
+td {
     color: blueviolet;
-     border-color: black;
+    border-color: black;
     border-width: 2px;
-    border-style:solid ;
+    border-style: solid;
     border-radius: 50;
-    padding: 10px;
+    padding: 40px;
+    background-image:url(https://acegif.com/wp-content/uploads/gifs/rainbow-frog-20.gif)
 }

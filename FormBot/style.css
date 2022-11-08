@@ -1,0 +1,13 @@
+legend {
+  color: rgb(0, 0, 0);
+  background-color: aquamarine;
+}
+.mb-3 {
+  color: rgb(0, 0, 0);
+  background-color: aquamarine;
+}
+
+fieldset {
+  background-color: aquamarine;
+  border-radius: 20px;
+}

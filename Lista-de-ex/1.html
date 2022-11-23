@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo com Script</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <form id="formulario">
+        <h2 id="demo"></h2>
+        <input type="number" placeholder="Digite um número" id="ano">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+        var form = document.getElementById('formulario');
+        // Recuperando o ano informado no input
+        let ano = document.getElementById('ano'); 
+
+              
+        form.addEventListener('submit', function(e) {
+            // Acessando o value 
+            let Idade = 2022 - ano.value 
+
+        if (Idade>=16) {
+            alert("Você vota")
+            
+        }
+        else {
+            alert("Você não tem direito a opnião")
+        }
+        e.preventDefault();
+    });
+    </script>
+</body>
+
+</html>

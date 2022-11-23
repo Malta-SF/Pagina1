@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo com Script</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <form id="formulario">
+        <h2 id="demo"></h2>
+        <input type="text" placeholder="Peso" id="Peso">
+        <input type="text" placeholder="Altura" id="Altura">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+        var form = document.getElementById('formulario');
+        let p = document.getElementById('Peso'); 
+        let a = document.getElementById('Altura');
+        
+        
+    
+
+        form.addEventListener('submit', function(e) {
+
+    Peso = p.value
+    Altura = a.value
+    const imc = Peso/(Altura*Altura)
+
+    
+   if (imc>20) {
+       alert("abaixo do peso")
+   }
+    if (imc>= 20 && imc < 25) {
+       alert("peso normal")
+   }
+    if (imc>= 25 && imc < 28) {
+       alert("pouco acima do peso")
+   }
+    if (imc>= 28 && imc < 31) {
+       alert("acima do peso")
+   }
+   if (imc>=31) {
+       alert("Obeso")
+   }
+
+            document.getElementById("demo").innerHTML = "Este é seu IMC " +imc
+    e.preventDefault();
+});
+    </script>
+</body>
+
+</html>

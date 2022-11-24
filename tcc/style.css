@@ -1,0 +1,59 @@
+header {
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+position: fixed;
+z-index: 1;
+top: 0;
+background-color:#ec1c24;
+}
+.imgheader{
+width: 160px;
+height: 160px;
+margin: 5px;
+padding-right: 1140px;
+}
+.frontpageimg {
+    background-image: url(../imagem-fundo-ranking.jpg);
+
+}
+.start {
+padding: 40px;
+color: white;
+}
+
+.about {
+padding: 40px;
+color: white;
+}
+.location {
+padding: 40px;
+color: white;
+}
+
+.botaocds {
+    background-color: blueviolet;
+    border-color: black;
+   border-style: solid;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    margin-left: 40px;
+}
+.banner {
+    background-image: url(./imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+footer {
+    background-color: #ec1c24;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
